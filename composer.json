@@ -1,0 +1,15 @@
+{
+    "name": "antoine/personne_app_2",
+    "description": "",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "model\\": "model/",
+            "dao\\": "dao/"
+        }
+    }
+}
